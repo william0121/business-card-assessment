@@ -1,0 +1,58 @@
+/* General page styles */
+.card {width: 35em;
+  height: 21em;
+  margin: 5em auto;
+  background-color: red;
+  border: 0.2em solid black;
+  border-radius: 1.5em;}
+  html{
+    font-family: "helvetica neue", arial, "sans serif";
+    font-size: 10px;
+    background-color: #ccc;}
+
+  h2{
+    font-size: 1.8em;
+    text-align: left;
+    margin-top: 0;
+    margin: 0;
+    padding-top: 1.0em;
+  }
+  article{
+    height: 12.0em;
+    background-color: rgb(196, 24, 24);
+    padding-left: 2.5px;
+    color: seashell;
+  }
+  .card article img{
+    max-height: 100%;
+    float: right;
+    width: 12.0em;
+    border-radius: 0;
+    margin-top: 0;
+    border: 0;
+  }
+  .card article img ~p{
+    float: left;
+  }
+  .card header{
+    background-image: linear-gradient(to botttom, rgba(0,0,00.1));
+    border-radius: 1.5em 1.5em 0 0;
+    height: 38px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
+    border: 0;
+  }
+  .card footer{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0,1));
+    border-radius: 0 0 1.5em 1.5em;
+    height: 38px;
+    margin-top: 0;
+    border: 0;
+  }
+  .card footer>p{
+    font-size: 1.5em;
+    text-align: center;
+  }
+  /* selectors to be matched up with rulesets */
+  /* rulesets to be matched up with selectors */
